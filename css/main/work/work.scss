@@ -1,0 +1,131 @@
+.main{
+
+    @media (max-width: 1045px) {
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-img-img{
+
+        margin-top: 95px;
+        margin-bottom: 55px;
+
+        @media (max-width: 672px) {
+
+            width: 100%;
+            
+        }
+
+    }
+
+    &__few{
+
+
+
+        &-h1{
+
+            font-family: 'Montserrat';
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 50px;
+            color: #444444;
+            margin-bottom: 10px;
+            text-align: center;
+
+        }
+
+        &-p{
+
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #9DA1B4;
+            margin-bottom: 16px;
+            text-align: start;
+
+          
+
+        }
+
+        &-h6{
+
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 36px;
+            color: #9DA1B4;
+         
+    
+
+        }
+
+        &__plus{
+
+            &-ul{
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &-li{
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                 &-h4{
+
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 28px;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    margin-top: 30px;
+                    margin-bottom: 8px;
+
+                 }
+
+                 &-h6{
+
+                    font-family: 'Montserrat';
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19.5px;
+                    color: #9DA1B4;
+                    text-align: center;
+
+                 }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+.block{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.block > i{
+
+    color: #525052;
+    font-size: 14px;
+
+}
+

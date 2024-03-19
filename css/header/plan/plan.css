@@ -1,0 +1,60 @@
+.plan__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1045px) {
+  .plan__div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.plan__div1-h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51.2px;
+  color: #444444;
+  padding-bottom: 33px;
+}
+@media (max-width: 1045px) {
+  .plan__div1-h1 {
+    text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  .plan__div1-h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+.plan__div1-p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.5px;
+  color: #8A8A8A;
+  padding-bottom: 40px;
+}
+@media (max-width: 1045px) {
+  .plan__div1-p {
+    text-align: center;
+  }
+}
+.plan__div1-btn {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.5px;
+  color: #FFFFFF;
+  background: #33319B;
+  width: 450px;
+  height: 70px;
+  cursor: pointer;
+  margin-bottom: 45px;
+}
+@media (max-width: 520px) {
+  .plan__div2-img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=plan.css.map */

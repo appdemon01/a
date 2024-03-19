@@ -1,0 +1,67 @@
+.plane {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 1438px) {
+  .plane {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1494px) {
+  .plane-img {
+    width: 100%;
+  }
+}
+.plane__nav__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+.plane__nav__ul-li {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+}
+@media (max-width: 1438px) {
+  .plane__nav__ul-li {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1130px) {
+  .plane__nav__ul-li {
+    font-size: 20px;
+  }
+}
+@media (max-width: 925px) {
+  .plane__nav__ul-li {
+    font-size: 15px;
+  }
+}
+@media (max-width: 720px) {
+  .plane__nav__ul-li {
+    font-size: 8px;
+  }
+}
+@media (max-width: 436px) {
+  .plane__nav__ul-li {
+    font-size: 7px;
+  }
+}
+@media (max-width: 395px) {
+  .plane__nav__ul-li {
+    font-size: 6px;
+  }
+}
+@media (max-width: 355px) {
+  .plane__nav__ul-li {
+    font-size: 5px;
+  }
+}/*# sourceMappingURL=plane.css.map */

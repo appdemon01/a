@@ -1,0 +1,148 @@
+.footer{
+
+    background: #2E2E2E;
+    padding-top: 200px;
+    padding-bottom: 100px;
+
+    &__content{
+
+        &-div{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 230px;
+
+            
+            @media (max-width: 1145px) {
+                            
+              gap: 150px;
+
+            }
+
+            
+            @media (max-width: 922px) {
+                            
+                gap: 100px;
+
+            }
+
+            
+            @media (max-width: 811px) {
+                            
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 60px;
+
+            }
+
+            &-logo{
+
+         
+
+            }
+
+            &-uls{
+
+                &-ul{
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 15px;
+
+                    &-a{
+
+                        font-family: 'Montserrat';
+                        font-weight: 600;
+                        text-align: center;
+                        color: #FFFFFF  ;
+
+                    }
+
+                }
+
+            }
+            
+            &-media{
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+
+
+                &-h5{
+
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+
+                }
+
+                &-icons{
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+
+                    >i{
+
+                        width: 32px;
+                        height: 32px;
+                        color: #3331A2;
+
+                    }
+
+                }
+
+                &-btns{
+
+                    &-btn{
+
+                        font-family: 'Montserrat';
+                        font-weight: 700;
+                        color: #FFFFFF;
+                        width: 210px;
+                        height: 50px;
+                        border-radius: 20px;
+                        background: #3331A2;
+                        cursor: pointer;
+                        border: none;
+
+                        @media (max-width: 967px) {
+                            
+                            width: 170px;
+
+                        }
+
+                    }
+
+                    &-btn:hover{
+
+                        background: rgb(255, 255, 255);
+                        color: #000000;
+                        border-radius: 20px;
+                        transition: .2s linear;
+                        border: none;
+                    
+
+                    }
+
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
